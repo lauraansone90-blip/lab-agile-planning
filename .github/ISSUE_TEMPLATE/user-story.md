@@ -7,9 +7,9 @@ assignees: ''
 
 ---
 
-**As a** [role]  
- **I need** [function]  
- **So that** [benefit]  
+**As a** user
+ **I need**   a service that has a counter,
+ **So that** I can keep track of how many times something has been done.
    
  ### Details and Assumptions
  * [document what you know]
@@ -17,7 +17,7 @@ assignees: ''
  ### Acceptance Criteria  
    
  ```gherkin
- Given [some context]
- When [certain action is taken]
- Then [the outcome of action is observed]
+ Given I have incremented the counter to 2
+ When I make a call to get the current value
+ Then it should return 2 as the counter value
  ```
